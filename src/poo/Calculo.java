@@ -15,13 +15,13 @@ public class Calculo {
     
     public static void main(String[] args) {
         
-        double a-3 , b-2;
+        double a=3 , b=2;
         
     }
-    /*public static double elevar(double x){
+    public static double elevar(double x){
         return x*x;
     }
     public static double elevar(double x,double y){
         return x*y;
-    }*/
+    }
 }
