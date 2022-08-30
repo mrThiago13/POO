@@ -10,5 +10,49 @@ package poo;
  * @author thiago.silva14
  */
 public class Barco {
+    String modelo;
+    String cor;
+    String captao;
+    String nome;
+    int ano;
     
+    public String getModelo(){
+    return modelo;
+    
+}
+
+public void setModelo (String modelo){
+    this.modelo=modelo;
+}
+        public String getCor(){
+    return cor;
+    
+}
+
+public void setCor (String cor){
+    this.cor=cor;
+}
+public String getCaptao(){
+    return captao;
+    
+}
+
+public void setCaptao (String captao){
+    this.captao=captao;
+    
+}
+public String getNome(){
+return nome;    
+}
+public void setNome (String nome){
+    this.nome=nome;
+}
+public int getAno(){
+    return ano;
+    
+}
+
+public void setAno (int ano){
+    this.ano=ano;
+}
 }
