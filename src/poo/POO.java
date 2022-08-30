@@ -28,6 +28,35 @@ public class POO {
         System.out.println("Placa: "+meuCarro.getPlaca());
         System.out.println("Modelo: "+meuCarro.getTipo());
                
+        Barco meuBarco = new Barco();
+        
+        
+        meuBarco.setModelo("Couraçado");
+        meuBarco.setCor("cinza");
+        meuBarco.setCaptao("Kniaz Potemkin Tavricheskiy");
+        meuBarco.setNome("URSS-Dvenadsat Apostolov");
+        meuBarco.setAno(1893);
+        
+        
+        System.out.println("--------NAVIO--------");
+        System.out.println("Modelo: ");
+        System.out.println("Cor: ");
+        System.out.println("Captão: ");
+        System.out.println("Nome: ");
+        System.out.println("Ano: ");
+        
+        Pessoa meuPessoa = new Pessoa();
+        
+        meuPessoa.setTipo("Raissa Marchioro");
+        meuPessoa.setCorDoCabelo("Loira");
+        meuPessoa.setBioTipo("Magra");
+        meuPessoa.setIdade(16);
+        
+        System.out.println("--------PESSOA--------");
+        System.out.println("nome: "+meuPessoa.getNome());
+        System.out.println("Cor do cabelo: "+meuPessoa.getCorDoCabelo());
+        System.out.println("Biotipo: "+meuPessoa.getBioTipo());
+        System.out.println("idade: "+meuPessoa.getIdade());
     }
     
 }

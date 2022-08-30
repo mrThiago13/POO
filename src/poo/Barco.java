@@ -16,6 +16,17 @@ public class Barco {
     String nome;
     int ano;
     
+    void ImprimeDadosDobarco(){
+        
+        System.out.println("--------NAVIO--------");
+        System.out.println("Modelo: "+modelo);
+        System.out.println("Cor: "+cor);
+        System.out.println("Captão: "+captao);
+        System.out.println("Nome: "+nome);
+        System.out.println("Ano: "+ano);
+    }
+    
+    
     public String getModelo(){
     return modelo;
     
